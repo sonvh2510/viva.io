@@ -9,14 +9,14 @@
 	.container
 		.section__blockTitle
 			h2.fs-32.fw-300.text-center Select what you need below and find resellers near you.
-		form.section__form.mt-4.pb-4
+		form(method="POST" action="where-to-find-result.html").section__form.mt-4.pb-4
 			.justify-content-center.row
 				.col-lg-11.col-xl-10
 					.row.justify-content-center
 						.col-md-4.col-lg.mb-3
 							.form__group
 								select.form__control
-									option What kind of product?
+									option What category?
 									option value a
 									option value a
 									option value a
@@ -24,7 +24,7 @@
 						.col-md-4.col-lg.mb-3
 							.form__group
 								select.form__control
-									option What kind of product?
+									option What sub product?
 									option value a
 									option value a
 									option value a
@@ -32,7 +32,7 @@
 						.col-md-4.col-lg.mb-3
 							.form__group
 								select.form__control
-									option What kind of product?
+									option What product?
 									option value a
 									option value a
 									option value a
