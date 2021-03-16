@@ -298,3 +298,10 @@ img {
 .litepicker .container__days .day-item.is-end-date {
 	background-color: map-get($color, main);
 }
+
+.pointer-track{
+	pointer-events: none;
+	background-color: #fff;
+    opacity: .3;
+    border: 1.3px solid #d8d8d8!important;
+}
