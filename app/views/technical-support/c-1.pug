@@ -1,0 +1,74 @@
+.form-filter-simple-banner.contact-simple-banner
+	.img
+		img.object-cover(src="/images/banners/form-filter.png")
+	.caption.text-center
+		.container
+			h1.fs-22.fw-300 Technical Support
+			p.fs-20.mt-1 We are here to help you, contact us.
+.contact-section.pd-section
+	.container
+		.row.tab-container
+			.col-md-3
+				.tab-toggle-item-list
+					.tab-toggle-for
+						a(href="contact-us.html")
+							.d-flex.align-items-center
+								.img
+									+svg("/images/message.svg")
+								.caption
+									p.fs-16 Contact Us
+					.tab-toggle-for
+						a(href="call-center.html")
+							.d-flex.align-items-center
+								.img
+									+svg("/images/attendance.svg")
+								.caption
+									p.fs-16 Call Center
+					.tab-toggle-for.active
+						a(href="technical-support.html")
+							.d-flex.align-items-center
+								.img
+									+svg("/images/technical.svg")
+								.caption
+									p.fs-16 Technical Support
+			.col-md-1
+			.col-md-8
+				.tab-content
+					h2.fs-32.fw-300.mb-3 Technical support
+					p.fs-16 Use the fields below to list the technical support phones in your region. Select the product model that needs support and click continue.
+					.contact-form-message
+						form(action="technical-support-result.html")
+							.form__search.mt-4
+								.form__group
+									input.form__control(placeholder="Enter product name")
+								button.btn
+									span.far.fa-search
+						p.my-4.fs-18.text-center Or
+						form(action="technical-support-result.html")
+							.form__group.mb-3
+								select.form__control
+									option Which category?
+									option Value 1
+									option Value 1
+									option Value 1
+									option Value 1
+									option Value 1
+							.form__group.mb-3
+								select.form__control
+									option Which sub category?
+									option Value 1
+									option Value 1
+									option Value 1
+									option Value 1
+									option Value 1
+							.form__group.mb-3
+								select.form__control
+									option Which product?
+									option Value 1
+									option Value 1
+									option Value 1
+									option Value 1
+									option Value 1
+							.form__group
+								button.btn.btn--main Continue
+									span.btn__icon--right.fal.fa-chevron-right
